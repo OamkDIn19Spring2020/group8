@@ -48,11 +48,49 @@ class Pages extends CI_Controller {
         } else if ($page === 's10') {
             $data['products'] = array_slice($this->products_model->get_products(), 9, 1);
        
-           
-        } else if ($page === 'women') {
-            $data['products'] = array_slice($this->products_model->get_products(), 10, 10);
-        } else if ($page === 'kids') {
-            $data['products'] = array_slice($this->products_model->get_products(), 20, 20);
+       
+        } else if ($page === 'w1') {
+            $data['products'] = array_slice($this->products_model->get_products(), 10, 1);
+        } else if ($page === 'w2') {
+            $data['products'] = array_slice($this->products_model->get_products(), 11, 1);
+        } else if ($page === 'w3') {
+            $data['products'] = array_slice($this->products_model->get_products(), 12, 1);
+        } else if ($page === 'w4') {
+            $data['products'] = array_slice($this->products_model->get_products(), 13, 1);
+        } else if ($page === 'w5') {
+            $data['products'] = array_slice($this->products_model->get_products(), 14, 1);
+        } else if ($page === 'w6') {
+            $data['products'] = array_slice($this->products_model->get_products(), 15, 1);
+        } else if ($page === 'w7') {
+            $data['products'] = array_slice($this->products_model->get_products(), 17, 1);
+        } else if ($page === 'w8') {
+            $data['products'] = array_slice($this->products_model->get_products(), 18, 1);
+        } else if ($page === 'w9') {
+            $data['products'] = array_slice($this->products_model->get_products(), 19, 1);
+        } else if ($page === 'w10') {
+            $data['products'] = array_slice($this->products_model->get_products(), 20, 1);
+
+
+        } else if ($page === 'k1') {
+            $data['products'] = array_slice($this->products_model->get_products(), 21, 1);
+        } else if ($page === 'k2') {
+            $data['products'] = array_slice($this->products_model->get_products(), 22, 1);
+        } else if ($page === 'k3') {
+            $data['products'] = array_slice($this->products_model->get_products(), 23, 1);
+        } else if ($page === 'k4') {
+            $data['products'] = array_slice($this->products_model->get_products(), 24, 1);
+        } else if ($page === 'k5') {
+            $data['products'] = array_slice($this->products_model->get_products(), 25, 1);
+        } else if ($page === 'k6') {
+            $data['products'] = array_slice($this->products_model->get_products(), 26, 1);
+        } else if ($page === 'k7') {
+            $data['products'] = array_slice($this->products_model->get_products(), 27, 1);
+        } else if ($page === 'k8') {
+            $data['products'] = array_slice($this->products_model->get_products(), 28, 1);
+        } else if ($page === 'k9') {
+            $data['products'] = array_slice($this->products_model->get_products(), 29, 1);
+        } else if ($page === 'k10') {
+            $data['products'] = array_slice($this->products_model->get_products(), 30, 1);
         }
 
         $this->load->view('partials/header', $data);

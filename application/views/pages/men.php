@@ -145,21 +145,21 @@
     <div class="product col-10 container">
             <div class="card-deck">
                 <div class="card">
-                <a href="new1.html"><img src="../img/ksmedr.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/ksmedr.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">Yeezy Boost 350 V2 "Tail Light" sneakers</h5>
                         
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"><img src="../img/sacv.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/sacv.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">'Yeezy Boost 700 "Wave Runner"</h5>
                         
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"> <img src="../img/ca.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"> <img src="img/ca.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">Stand Smith</h5>
                         
@@ -171,28 +171,28 @@
         <div class="product col-10 container">
             <div class="card-deck">
                 <div class="card">
-                <a href="new1.html"><img src="../img/cmnq.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/cmnq.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">GUCCI ACE EU38</h5>
                         
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"><img src="../img/ddkd.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/ddkd.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">NMD_R1 STAR WARS</h5>
                         
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"><img src="../img/htca.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/htca.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">NMD R1 Shoes White</h5>
                         
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"><img src="../img/d1c.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/d1c.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">Adidas Originals NMD_R1 Miehet</h5>
                         
@@ -204,21 +204,21 @@
         <div class="product col-10 container">
             <div class="card-deck">
                 <div class="card">
-                <a href="new1.html"><img src="../img/tx.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/tx.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">BALENCIAGA Off White Triple S Clear Sole Sneakers</h5>
                         
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"><img src="../img/nmelbtym.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/nmelbtym.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">Jordan Max Aura Miehet</h5>
                        
                     </div>
                 </div>
                 <div class="card">
-                <a href="new1.html"><img src="../img/cgh.jpg" class="card-img-top" alt="..."></a>
+                <a href="new1.html"><img src="img/cgh.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body row">
                         <h5 class="card-title col-10">Jordan Jumpman Diamond Mid</h5>
                         

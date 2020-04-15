@@ -40,12 +40,12 @@
                 <div class="navbar-nav">
                 <ul class= "nav navbar-nar">
                 
-                <li> <a class="nav-item nav-link" href="<?php echo site_url('pages/home'); ?>">HOME</a> </li>
-                <li> <a class="nav-item nav-link" href="<?php echo site_url('pages/men'); ?>">MEN</a> </li>
-                <li> <a class="nav-item nav-link" href="<?php echo site_url('pages/women'); ?>">WOMEN</a> </li>
-                <li> <a class="nav-item nav-link" href="<?php echo site_url('pages/kids'); ?>">KIDS</a> </li>
-                <li> <a class="nav-item nav-link" href="<?php echo site_url('pages/new'); ?>">NEW</a> </li>
-                <li> <a class="nav-item nav-link" href="<?php echo site_url('pages/contact'); ?>">CONTACT</a> </li>
+                <li> <a class="nav-item nav-link" href="<?php echo base_url(); ?>">HOME</a> </li>
+                <li> <a class="nav-item nav-link" href="<?php echo base_url('men'); ?>">MEN</a> </li>
+                <li> <a class="nav-item nav-link" href="<?php echo base_url('pages/women'); ?>">WOMEN</a> </li>
+                <li> <a class="nav-item nav-link" href="<?php echo base_url('pages/kids'); ?>">KIDS</a> </li>
+                <li> <a class="nav-item nav-link" href="<?php echo base_url('pages/new'); ?>">NEW</a> </li>
+                <li> <a class="nav-item nav-link" href="<?php echo base_url('pages/contact'); ?>">CONTACT</a> </li>
                 
                        
                     </ul>

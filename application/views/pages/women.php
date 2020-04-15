@@ -142,27 +142,91 @@
         </ul>
         <hr>
     </nav>
-    <section id="main">
-        <div class="container">
-            <article id="main-col">
-                
-                <ul id="services">
-                <?php foreach ($products as $product): ?>
-                    <li>
-                    
+    <div class="product col-10 container">
+            <div class="card-deck">
                 <div class="card">
-                        <span><img class="imglist" src="<?= $img_url .  $product['img']; ?>"></span>
-                        <h3><?php echo $product['name']; ?></h3>
-                      
+                <a href="new1.html"><img src="img/bglc.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">Fila Ray Tracer Naiset</h5>
                         
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"><img src="img/lp.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">Fila D-Formation R wmn</h5>
                         
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"> <img src="img/htcn.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">NMD_R1 SHOES</h5>
                         
-                        <button type="submit" class="button_1">Order</button>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-        </article>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="product col-10 container">
+            <div class="card-deck">
+                <div class="card">
+                <a href="new1.html"><img src="img/clm.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">STAN SMITH SHOES</h5>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"><img src="img/ntt.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"><img src="img/hcy.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">NMD_R1 SHOES</h5>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"><img src="img/tno.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">SUPERSTAR SHOES</h5>
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="product col-10 container">
+            <div class="card-deck">
+                <div class="card">
+                <a href="new1.html"><img src="img/2ph.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">NMD_R1 V2 SHOES</h5>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"><img src="img/dmm.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">LXCON SHOES</h5>
+                       
+                    </div>
+                </div>
+                <div class="card">
+                <a href="new1.html"><img src="img/zalo.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body row">
+                        <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
         
-      </div>
-    </section>
+       
 </div>
