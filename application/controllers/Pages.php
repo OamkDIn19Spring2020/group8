@@ -93,6 +93,7 @@ class Pages extends CI_Controller {
             $data['products'] = array_slice($this->products_model->get_products(), 30, 1);
         }
 
+        $this->load->view('partials/head', $data);
         $this->load->view('partials/header', $data);
         $this->load->view('pages/' . $page, $data);
         $this->load->view('partials/footer', $data);

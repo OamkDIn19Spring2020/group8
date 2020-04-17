@@ -57,7 +57,6 @@ header .navbar-expand-lg .navbar-nav .complete {
   color: #626262;
 }
 
-
 .popularNews .card {
   border: none;
 }
@@ -98,6 +97,11 @@ header .navbar-expand-lg .navbar-nav .complete {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+}
+
+.seeing h4 a {
+  text-decoration: none;
+  color: black;
 }
 
 .seeing .seeing__content .left .left__title div {

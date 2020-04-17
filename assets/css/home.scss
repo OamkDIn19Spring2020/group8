@@ -48,10 +48,6 @@ header {
     }
 }
 
-.slideshow {
-    
-}
-
 .popularNews {
     .card {
         border: none;
@@ -87,6 +83,10 @@ header {
         font-size: 18px;
         font-weight: 700;
         text-align: center;
+        a {
+            text-decoration: none;
+            color: black;
+        }
     }
     .seeing__content {
         .left {
