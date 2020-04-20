@@ -1,0 +1,16 @@
+.contact {
+  background: #f7f7f7;
+  padding: 25px 30px;
+  margin: 0 auto;
+}
+
+.contact .contact__content {
+  background: white;
+  border: 1px solid #e5e5e5;
+  padding: 25px 30px;
+}
+
+.contact .contact__content .contact__head {
+  color: #7d7d7d;
+}
+/*# sourceMappingURL=contact.css.map */
