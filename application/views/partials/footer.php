@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-7 subcribe__text">
                 <div class="empty"></div>
-                <h2>Subcribe to our newsletters</h2>
+                <h2>Subscribe to our newsletters</h2>
                 <form>
                     <div class="form-group row">
                         <div class="col-sm-7">

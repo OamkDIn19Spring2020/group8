@@ -1,0 +1,63 @@
+// REGISTER/LOGIN
+CREATE TABLE `codeigniter_register` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(250) NOT NULL,
+  `last_name` varchar(250) NOT NULL,
+  `phone` varchar(250) NOT NULL,
+  `country` varchar(250) NOT NULL,
+  `email` varchar(250) NOT NULL,
+  `password` text NOT NULL,
+  `verification_key` varchar(250) NOT NULL,
+  `is_email_verified` enum('no','yes') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `codeigniter_register`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `codeigniter_register`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+// SUBCRIBERS
+CREATE TABLE subscriber(
+	subscriber_id SMALLINT PRIMARY KEY,
+	email VARCHAR(255)) Engine=InnoDB;
+
+// PRODUCT
+CREATE TABLE product(
+	product_id SMALLINT PRIMARY KEY,
+	name VARCHAR(255),
+	price VARCHAR(255),
+    brand VARCHAR(255),
+    description VARCHAR(255),
+	img VARCHAR(255)) Engine=InnoDB;
+    
+  insert into product VALUES(1,'Yeezy Boost 350 V2 "Tail Light" sneakers','759 €','ADIDAS','Light up in the sky while rocking a pair of the adidas Yeezy Boost 350 V2 Static Black Reflective. This Yeezy Boost 350 V2 comes with a black upper plus reflective accents, black midsole, and a black sole. These sneakers released in June 2019 and retailed for $220','ksmedr.jpg');
+	insert into product VALUES(2,'Yeezy Boost 700 "Wave Runner"','834 €','ADIDAS YEEZY',' It uses eco-friendly materials in many products - 100% of its cotton is from sustainable sources and it is use 100% recycled polyester by 2024. It traces and audits almost all of its supply chain to ensure good labour standards, and has committed to reduce carbon and water stress across its whole supplier base','sacv.jpg');
+	insert into product VALUES(3,'Stand Smith',' 69,95 €','ADIDAS','The shoe, usually made with a white leather upper and laces, has a simple design. Unlike most Adidas shoes, it does not have the external three stripes. Instead there are three rows of perforations (or punched ventilation holes) on both sides of each shoe is leather upper','ca.jpg');
+	insert into product VALUES(4,'GUCCI ACE EU38','755 €','GUCCI','Our classic low-top sneaker with Gucci is iconic gold embroidered bee against our Web. The bee is an archival code first introduced in Gucci ready-to-wear in the 1970s.','cmnq.jpg');
+	insert into product VALUES(5,'NMD_R1 STAR WARS','159,95 €','ADIDAS','With a progressive combination of shapes, angles and materials, the NMD_R1 shoes pay homage to adidas innovation. A collaboration with Disney, this pair shows off a Yoda logo on the tongue. Responsive Boost in the midsole returns energy with every stride.','ddkd.jpg');
+	insert into product VALUES(6,'NMD R1 Shoes White','149,95 €','ADIDAS','Run with it. These adidas NMD_R1 Shoes are a little technical and a lot street smart. Their midsole plugs flash back to the 80s, but the knit upper, full-length cushioned midsole and EVA inserts are 100 percent fashion forward.','htca.jpg');
+	insert into product VALUES(7,'Adidas Originals NMD_R1 Miehet','119.96 €','ADIDAS','The NMD R1 sneakers combine state-of-the-art technology with the classic design of adidas Originals. Stylish khaki green sneakers are made from a flexible and curved nylon sole that fits perfectly in the foot. The blue details on the heel give the sneakers a personal touch. The shock absorbing midsole gives the model flexibility. Rubber outsole ensures traction at every step.','d1c.jpg');
+	insert into product VALUES(8,'BALENCIAGA Off White Triple S Clear Sole Sneakers',' 875€ ','BALENCIAGA','First released in 2017, the new version of Balenciaga’s iconic Triple S silhouette incorporating a clear rubber midsole returns in a fresh off-white iteration for the SS 20 season. The sneakers feature a mesh panelled leather upper resting on a triple-layered rubber sole','tx.jpg');
+	insert into product VALUES(9,'Jordan Max Aura Miehet','120,00€','Jordan','These Jordan Men  Max Aura sneakers take you in style to both basketball courts and city streets. Inspired by the Jordan 11, the black and white sneakers are made from a combination of leather and Textile. The responsive midsole with visible Air Max unit softens your steps and the outsole provides grip. Jumpman branding completes the whole.','nmelbtym.jpg');
+	insert into product VALUES(10,'Jordan Jumpman Diamond Mid','120,00€','Jordan','The Jordan Jumpman Diamond Mid brings flight to every player by providing stability and responsiveness to run the court. An innovative cage, designed by Tinker Hatfield, provides lightweight support for every play style.','cgh.jpg');
+	insert into product VALUES(11,'Fila Ray Tracer Naiset','94,00€','Fila',' Take on the retro style with these women Fila Ray Tracer sneakers. White sneakers are made of breathable textile. White stripes provide support and the EVA midsole cushions every step of the way. The grip outsole and the Fila branding complete the throwback look.','bglc.jpg');
+	insert into product VALUES(12,'Fila D-Formation R wmn','90,00€','Fila','chunky sneaker and reflective reptile print,pull tab on the tongue / reflective upper material','anca.jpg');
+    insert into product VALUES(13,'NMD_R1 SHOES','130,00€','Adidas','These shoes have the best of adidas latest technical innovations, combined with style that honors the past. A metallic color-fade midsole and metallic midsole plugs give them a gleaming look.','lp.jpg');
+    insert into product VALUES(14,'STAN SMITH SHOES','120,00€','Adidas','Jump into the Lunar New Year. 2020 is the Year of the Rat, and these adidas Stan Smith Shoes with Disney Mickey Mouse in 3D are a triple celebration of Chinese tradition, pop culture and tennis heritage','htcn.jpg');
+    insert into product VALUES(15,'NITE JOGGER SHOES','130,00€','Adidas','Inspired by the 1980 Nite Jogger, these shoes shine bright with retro style and reflective details. The mesh and nylon ripstop upper is detailed with suede overlays.','clm.jpg');
+    insert into product VALUES(16,'NMD_R1 SHOES','130,00€','Adidas','The best of the past, meet the best of the present. NMD digs into the archives and introduces retro lines to modern materials and techs. These adidas NMD shoes showcase a modern camouflage design on the knit upper and midsole.','ntt.jpg');
+    insert into product VALUES(17,'SUPERSTAR SHOES','80,00€','Adidas','These shoes show off the materials, proportions and style that made the original such a legend. They have got a smooth leather upper with sporty 3-Stripes and a heel tab. They are finished off with the world-famous rubber shell toe.','hcy.jpg');
+    insert into product VALUES(18,'NMD_R1 V2 SHOES','120,00€','Adidas','The tech revolution has come for your shoes, and it is glorious. The outsole looks and feels like you walked right out of a time machine. ','tno.jpg');
+    insert into product VALUES(19,'LXCON SHOES','120,00€','Adidas','Bold and futuristic, the LXCON channels a tech vibe. The nylon, suede and mesh upper delivers a soft, lightweight feel. Heel cushioning offers a plush ride','2ph.jpg');
+    insert into product VALUES(20,'NITE JOGGER SHOES','130,00€','Adidas','The mesh and nylon ripstop upper is detailed with suede overlays. An updated Boost midsole adds responsive cushioning.','dmm.jpg');
+    insert into product VALUES(21,'SUPERSTAR SHOES','70,00€','Adidas',' The adidas Superstar sneaker came to play. Fifty years later, it is still on top. These juniors  shoes show off a flashy new look with iridescent 3-Stripes and heel tabs on the leather upper.','zalo.jpg');
+	insert into product VALUES(22,'HOOPS MID 2.0 SHOES','55,00€','Adidas','They will stand out from the crowd with classic adidas style. These kids shoes update retro hardwood inspiration with Pokémon™ graphics and a marbled rubber outsole for a playful approach to modern streetwear.','fb.jpg');
+    insert into product VALUES(23,'ULTRABOOST 20 SHOES','160,00€','Adidas','Find explosive strides, from door to door. These juniors shoes feature a proven adidas midsole that returns energy with every step.','ins.jpg');
+    insert into product VALUES(24,'CLOUDFOAM PURE SHOES','60,00€','Adidas','They will glide through their day in lightweight comfort. These kids  running-inspired shoes will cradle your little one  every step with extra midsole cushioning and a memory foam sockliner.','mess.jpg');
+    insert into product VALUES(25,'ADVANTAGE SHOES','50,00€','Adidas','They will capture  em all, to and from the court. These kids shoes upgrade a classic tennis look with a pixelated graphic upper celebrating Pokémon™.','snap.jpg');
+    insert into product VALUES(26,'NMD_R1 V2 SHOES','110,00€','Adidas','To be a creator, first you must learn to walk the path ahead of you. Then you must learn to blaze your own trail. The NMD_R1 united the worlds of street style and performance.','atenm.jpg');
+    insert into product VALUES(27,'NMD_R1 SHOES','110,00€','Adidas','These juniors  adidas NMD_R1 shoes have a supple leather upper that hugs your foot for a seriously comfortable feel. Responsive cushioning in the midsole feels springy all day.','1tl.jpg');
+    insert into product VALUES(28,'U_PATH RUN SHOES','65,00€','Adidas','The future is already here. These juniors  adidas U_Path Run shoes are the next generation of track-inspired streetwear. The textile and leather upper features a bungee heel overlay for stretchy support.','mcnd.jpg');
+    insert into product VALUES(29,'ZX FLUX SHOES','65,00€','Adidas','Deceptively simple, the ZX Flux shoes are a descendant of the iconic ZX 8000 sneaker of the 1980s. This kids version comes in a solid color. The floating 3-Stripes and heel cage are signature ZX details.','mynd.jpg');
+    insert into product VALUES(30,'CLOUDFOAM PURE SHOES','60,00€','Adidas','They will glide through their day in lightweight comfort. These kids  running-inspired shoes will cradle your little one  every step with extra midsole cushioning and a memory foam sockliner.','mlgcn.jpg');
