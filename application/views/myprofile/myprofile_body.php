@@ -5,7 +5,7 @@
                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-myprofile" role="tab" aria-controls="v-pills-home" aria-selected="true">My Profile</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-favorite" role="tab" aria-controls="v-pills-messages" aria-selected="false">My Favorite</a>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-review" role="tab" aria-controls="v-pills-profile" aria-selected="false">My Reviews</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="' . base_url() . 'myprofile/logout" role="tab" aria-controls="v-pills-settings" aria-selected="false">Log Out</a>
+                <?php echo '<a class="nav-link" href="' . base_url() . 'myprofile/logout">Logout</a>'; ?>
             </div>
         </aside>
         <div class="tab-content col-9" id="v-pills-tabContent">
