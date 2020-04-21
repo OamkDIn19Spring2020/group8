@@ -1,5 +1,5 @@
 <?php
-class Crud_model extends CI_Model
+class Myprofile_model extends CI_Model
 {
     function fetch_data()
     {
