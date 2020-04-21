@@ -1,14 +1,15 @@
 <?php
-class Products extends CI_Controller {
+class Products extends CI_Controller
+{
     public function __construct()
     {
         parent::__construct();
         $this->load->model('products_model');
     }
-    
+
     public function showProducts()
     {
-        
+
         $this->load->view('partials/header', $data);
         $this->load->view('pages/' . $page, $data);
         $this->load->view('partials/footer');
@@ -23,4 +24,4 @@ class Products extends CI_Controller {
         $this->load->view('products/view', $data);
         $this->load->view('partials/footer');
     }
-}    
+}
