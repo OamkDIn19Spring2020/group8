@@ -121,14 +121,14 @@ header {
 
 footer {
     background: black;
+    a { 
+        color:white;
+        text-decoration: none;
+    }
     .footer__aboutus {
         ul {
             list-style-type: none;
             padding: 0;
-            a { 
-                color:white;
-                text-decoration: none;
-            }
         }
     }
     .footer__icons {

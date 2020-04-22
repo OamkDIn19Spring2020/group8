@@ -9,7 +9,6 @@ class Products extends CI_Controller
 
     public function showProducts()
     {
-
         $this->load->view('partials/header', $data);
         $this->load->view('pages/' . $page, $data);
         $this->load->view('partials/footer');
@@ -19,7 +18,6 @@ class Products extends CI_Controller
     {
         $data['product'] = $this->products_model->get_products($product_id);
         $data['title'] = $data['product']['name'];
-
         $this->load->view('partials/header', $data);
         $this->load->view('products/view', $data);
         $this->load->view('partials/footer');

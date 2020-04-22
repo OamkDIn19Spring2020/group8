@@ -128,14 +128,14 @@ footer {
   background: black;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 footer .footer__aboutus ul {
   list-style-type: none;
   padding: 0;
-}
-
-footer .footer__aboutus ul a {
-  color: white;
-  text-decoration: none;
 }
 
 footer .footer__icons i {
