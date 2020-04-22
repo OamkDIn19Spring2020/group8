@@ -1,10 +1,9 @@
 <div class="sortby row">
     <div class="col-2">
         <div class="btn-group">
-            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    Sort by &#160;
-            <i class="fa fa-chevron-down pull-right"></i>
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by &#160;
+                <i class="fa fa-chevron-down pull-right"></i>
             </button>
             <div class="dropdown-menu dropdown-menu-right">
                 <button class="dropdown-item" type="button">Featured</button>
@@ -20,8 +19,8 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#brand-list" aria-expanded="true">
-                        Brand &#160;
-                        <i class="fas fa-caret-down"></i>
+                    Brand &#160;
+                    <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="brand-list" class="collapse show form-group form-check">
                     <li class="item">
@@ -55,8 +54,8 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#price-list" aria-expanded="true">
-                        By price &#160;
-                        <i class="fas fa-caret-down"></i>
+                    By price &#160;
+                    <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="price-list" class="collapse show form-group form-check">
                     <li class="item">
@@ -96,7 +95,7 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#material-list" aria-expanded="true">
-                        Material &#160;
+                    Material &#160;
                     <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="material-list" class="collapse show form-group form-check">
@@ -113,8 +112,8 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#color-list" aria-expanded="true">
-                        Color &#160;
-                        <i class="fas fa-caret-down"></i>
+                    Color &#160;
+                    <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="color-list" class="collapse show form-group">
                     <label class="containerlabel">
@@ -143,90 +142,78 @@
         <hr>
     </nav>
     <div class="product col-10 container">
-            <div class="card-deck">
-                <div class="card">
-                <a href="new1.html"><img src="img/bglc.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Fila Ray Tracer Naiset</h5>
-                        
-                    </div>
+        <div class="card-deck my-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/bglc.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Fila Ray Tracer Naiset</h5>
+
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/lp.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Fila D-Formation R wmn</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/lp.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Fila D-Formation R wmn</h5>
+
                 </div>
-                <div class="card">
-                <a href="new1.html"> <img src="img/htcn.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"> <img src="assets/img/htcn.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
+
                 </div>
-               
             </div>
         </div>
-        <div class="product col-10 container">
-            <div class="card-deck">
-                <div class="card">
-                <a href="new1.html"><img src="img/clm.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">STAN SMITH SHOES</h5>
-                        
-                    </div>
+        <div class="card-deck mb-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/clm.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">STAN SMITH SHOES</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/ntt.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/ntt.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/hcy.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/hcy.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/tno.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">SUPERSTAR SHOES</h5>
-                        
-                    </div>
-                </div>
-               
             </div>
         </div>
-        <div class="product col-10 container">
-            <div class="card-deck">
-                <div class="card">
-                <a href="new1.html"><img src="img/2ph.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NMD_R1 V2 SHOES</h5>
-                        
-                    </div>
+        <div class="card-deck mb-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/2ph.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NMD_R1 V2 SHOES</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/dmm.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">LXCON SHOES</h5>
-                       
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/dmm.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">LXCON SHOES</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/zalo.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/zalo.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
                 </div>
-               
             </div>
         </div>
-        
-       
+        <div class="card-deck mb-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/tno.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">SUPERSTAR SHOES</h5>
+                </div>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </div>
 </div>

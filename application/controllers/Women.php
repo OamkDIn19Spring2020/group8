@@ -5,11 +5,11 @@ class Women extends CI_Controller
     {
         $data = array(
             'title' => 'Women',
-            'home' =>  '<a class="nav-item nav-link" style="color:white" href="' . base_url() . 'home">HOME</a>',
-            'men' => '<a class="nav-item nav-link" href="' . base_url() . '">MEN</a>',
-            'women' => '<a class="nav-item nav-link" href="' . base_url() . '">WOMEN</a>',
-            'kids' => '<a class="nav-item nav-link" href="' . base_url() . '">KIDS</a>',
-            'news' => '<a class="nav-item nav-link" href="' . base_url() . '">NEWS</a>',
+            'home' =>  '<a class="nav-item nav-link" href="' . base_url() . 'home">HOME</a>',
+            'men' => '<a class="nav-item nav-link" href="' . base_url() . 'men">MEN</a>',
+            'women' => '<a class="nav-item nav-link" style="color:white" href="' . base_url() . 'women">WOMEN</a>',
+            'kids' => '<a class="nav-item nav-link" href="' . base_url() . 'kids">KIDS</a>',
+            'news' => '<a class="nav-item nav-link" href="' . base_url() . 'news">NEWS</a>',
             'contact' => '<a class="nav-item nav-link" href="' . base_url() . 'contact">CONTACT</a>'
         );
         $this->load->view('women/women', $data);
