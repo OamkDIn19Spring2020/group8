@@ -39,10 +39,10 @@
         <div class="empty"></div>
         <div class="row text-white">
             <div class="col-6">
-                <img src="assets/img/logo.jpg" height="150" width="150" alt="">
+                <a href="<?php echo base_url(); ?>home"><img src="assets/img/logo.jpg" height="150" width="150" alt=""></a>
                 <div class="my-5">
                     <p>SneakerHead <i class="far fa-registered"></i> is a project of Ha Quyen and Thinh Nguyen.</p>
-                    <p>For feedback, please contact via email t9qutr00@studetns.oamk.fi or t9ngdu00@students.oamk.fi
+                    <p>For feedback, please contact via email <a href="mailto: t9qutr00@students.oamk.fi">t9qutr00@students.oamk.fi</a> or <a href="mailto: t9ngdu00@students.oamk.fi">t9ngdu00@students.oamk.fi</a>
                     </p>
                 </div>
             </div>

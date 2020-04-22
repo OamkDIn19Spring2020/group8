@@ -64,9 +64,9 @@
                 <div class="col-12 left__men">
                     <div>
                         <figure>
-                            <a <?php echo base_url(); ?>men><img src="assets/img/seeing1.jpg" alt=""></a>
+                            <a href="<?php echo base_url(); ?>men"><img src="assets/img/seeing1.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo base_url(); ?>men>men footwear</a></h4>
+                        <h4><a href="<?php echo base_url(); ?>men">men footwear</a></h4>
                     </div>
                 </div>
             </div>
@@ -74,16 +74,16 @@
                 <div class="col-12 right__women">
                     <div>
                         <figure>
-                            <a <?php echo base_url(); ?>women><img src="assets/img/seeing2.jpg" alt=""></a>
+                            <a href="<?php echo base_url(); ?>women"><img src="assets/img/seeing2.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo base_url(); ?>women>women footwear</a></h4>
+                        <h4><a href="<?php echo base_url(); ?>women">women footwear</a></h4>
                     </div>
                     <div style="height: 80px"></div>
                     <div>
                         <figure>
-                            <a <?php echo base_url(); ?>kids><img src="assets/img/seeing3.jpg" alt=""></a>
+                            <a href="<?php echo base_url(); ?>kids"><img src="assets/img/seeing3.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo base_url(); ?>kids>kids footwear</a></h4>
+                        <h4><a href="<?php echo base_url(); ?>kids">kids footwear</a></h4>
                     </div>
                 </div>
             </div>
