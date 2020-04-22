@@ -1,10 +1,9 @@
 <div class="sortby row">
     <div class="col-2">
         <div class="btn-group">
-            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    Sort by &#160;
-            <i class="fa fa-chevron-down pull-right"></i>
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by &#160;
+                <i class="fa fa-chevron-down pull-right"></i>
             </button>
             <div class="dropdown-menu dropdown-menu-right">
                 <button class="dropdown-item" type="button">Featured</button>
@@ -20,8 +19,8 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#brand-list" aria-expanded="true">
-                        Brand &#160;
-                        <i class="fas fa-caret-down"></i>
+                    Brand &#160;
+                    <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="brand-list" class="collapse show form-group form-check">
                     <li class="item">
@@ -55,8 +54,8 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#price-list" aria-expanded="true">
-                        By price &#160;
-                        <i class="fas fa-caret-down"></i>
+                    By price &#160;
+                    <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="price-list" class="collapse show form-group form-check">
                     <li class="item">
@@ -96,7 +95,7 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#material-list" aria-expanded="true">
-                        Material &#160;
+                    Material &#160;
                     <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="material-list" class="collapse show form-group form-check">
@@ -113,8 +112,8 @@
         <ul class="list">
             <li>
                 <a data-toggle="collapse" href="#color-list" aria-expanded="true">
-                        Color &#160;
-                        <i class="fas fa-caret-down"></i>
+                    Color &#160;
+                    <i class="fas fa-caret-down"></i>
                 </a>
                 <ul id="color-list" class="collapse show form-group">
                     <label class="containerlabel">
@@ -143,90 +142,75 @@
         <hr>
     </nav>
     <div class="product col-10 container">
-            <div class="card-deck">
-                <div class="card">
-                <a href="new1.html"><img src="img/ksmedr.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Yeezy Boost 350 V2 "Tail Light" sneakers</h5>
-                        
-                    </div>
+        <div class="card-deck my-5">
+            <div class="card">
+                <a href="<?php echo base_url(); ?>s1"><img src="assets/img/ksmedr.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Yeezy Boost 350 V2 "Tail Light" sneakers</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/sacv.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">'Yeezy Boost 700 "Wave Runner"</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/sacv.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">'Yeezy Boost 700 "Wave Runner"</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"> <img src="img/ca.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Stand Smith</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"> <img src="assets/img/ca.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Stand Smith</h5>
                 </div>
-               
             </div>
         </div>
-        <div class="product col-10 container">
-            <div class="card-deck">
-                <div class="card">
-                <a href="new1.html"><img src="img/cmnq.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">GUCCI ACE EU38</h5>
-                        
-                    </div>
+        <div class="card-deck mb-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/cmnq.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">GUCCI ACE EU38</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/ddkd.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NMD_R1 STAR WARS</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/ddkd.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NMD_R1 STAR WARS</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/htca.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">NMD R1 Shoes White</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/htca.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">NMD R1 Shoes White</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/d1c.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Adidas Originals NMD_R1 Miehet</h5>
-                        
-                    </div>
-                </div>
-               
             </div>
         </div>
-        <div class="product col-10 container">
-            <div class="card-deck">
-                <div class="card">
-                <a href="new1.html"><img src="img/tx.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">BALENCIAGA Off White Triple S Clear Sole Sneakers</h5>
-                        
-                    </div>
+        <div class="card-deck mb-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/tx.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">BALENCIAGA Off White Triple S Clear Sole Sneakers</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/nmelbtym.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Jordan Max Aura Miehet</h5>
-                       
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/nmelbtym.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Jordan Max Aura Miehet</h5>
                 </div>
-                <div class="card">
-                <a href="new1.html"><img src="img/cgh.jpg" class="card-img-top" alt="..."></a>
-                    <div class="card-body row">
-                        <h5 class="card-title col-10">Jordan Jumpman Diamond Mid</h5>
-                        
-                    </div>
+            </div>
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/cgh.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Jordan Jumpman Diamond Mid</h5>
                 </div>
-               
             </div>
         </div>
-        
-       
+        <div class="card-deck mb-5">
+            <div class="card">
+                <a href="new1.html"><img src="assets/img/d1c.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body row">
+                    <h5 class="card-title col-10">Adidas Originals NMD_R1 Miehet</h5>
+                </div>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </div>
 </div>

@@ -1,0 +1,36 @@
+.profile {
+    padding: 50px 0;
+    .row {
+        aside {
+            .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+                color: white;
+                    background: black;
+            }
+            .nav-link {
+                text-align: center;
+                color: black;
+                &:hover {
+                    color: black;
+                    background: white;
+                }
+            }
+        }
+        .line {
+            margin: auto 0;
+            width: 50%;
+            padding: 5px 0;
+        }
+        #v-pills-myprofile {
+            .profile__info, .profile__contactinfo {
+                margin: 20px 0;
+                padding: 20px;
+                border-bottom: 1px solid rgb(209, 209, 209);
+                .thead {
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: rgb(95, 99, 104);
+                }
+            }
+        }
+    }
+}
