@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/profile.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/login.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/men.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/new.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/shoe.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/owl.carousel.min.css">

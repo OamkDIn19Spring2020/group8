@@ -7,7 +7,7 @@ class Kids extends CI_Controller
         $this->load->model('subscriber_model');
         $this->load->helper('url_helper');
     }
-    
+
     public function index()
     {
         $data = array(
@@ -29,14 +29,12 @@ class Kids extends CI_Controller
         $data['title'] = 'Subscribe now';
 
         $this->form_validation->set_rules('email', 'Email', 'required');
-        
-        if ($this->form_validation->run() === FALSE) {
-            $this->load->view('subscriber/subscribe'); 
 
+        if ($this->form_validation->run() === FALSE) {
+            $this->load->view('subscriber/subscribe');
         } else {
             $this->subscriber_model->set_subscriber();
             $this->load->view('subscriber/success');
         }
     }
-    
 }
