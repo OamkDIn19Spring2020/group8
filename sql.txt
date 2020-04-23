@@ -28,7 +28,11 @@ CREATE TABLE product(
 	name VARCHAR(255),
 	price VARCHAR(255),
     brand VARCHAR(255),
+<<<<<<< HEAD
+    description VARCHAR(255),
+=======
     description longtext,
+>>>>>>> master
 	img VARCHAR(255)) Engine=InnoDB;
     
   insert into product VALUES(1,'Yeezy Boost 350 V2 "Tail Light" sneakers','759 €','ADIDAS','Light up in the sky while rocking a pair of the adidas Yeezy Boost 350 V2 Static Black Reflective. This Yeezy Boost 350 V2 comes with a black upper plus reflective accents, black midsole, and a black sole. These sneakers released in June 2019 and retailed for $220','ksmedr.jpg');

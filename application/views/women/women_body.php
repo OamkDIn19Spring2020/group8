@@ -147,21 +147,18 @@
                 <a href="new1.html"><img src="assets/img/bglc.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body row">
                     <h5 class="card-title col-10">Fila Ray Tracer Naiset</h5>
-
                 </div>
             </div>
             <div class="card">
                 <a href="new1.html"><img src="assets/img/lp.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body row">
                     <h5 class="card-title col-10">Fila D-Formation R wmn</h5>
-
                 </div>
             </div>
             <div class="card">
                 <a href="new1.html"> <img src="assets/img/htcn.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body row">
                     <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-
                 </div>
             </div>
         </div>

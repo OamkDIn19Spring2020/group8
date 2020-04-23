@@ -1,11 +1,10 @@
 <?php
-
 class News extends CI_Controller
 {
     function index()
     {
         $data = array(
-            'title' => 'New',
+            'title' => 'News',
             'home' =>  '<a class="nav-item nav-link"  href="' . base_url() . 'home">HOME</a>',
             'men' => '<a class="nav-item nav-link" href="' . base_url() . 'men">MEN</a>',
             'women' => '<a class="nav-item nav-link" href="' . base_url() . 'women">WOMEN</a>',

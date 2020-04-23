@@ -144,7 +144,7 @@
     <div class="product col-10 container">
         <div class="card-deck my-5">
             <div class="card">
-                <a href="new1.html"><img src="assets/img/ksmedr.jpg" class="card-img-top" alt="..."></a>
+                <a href="<?php echo base_url(); ?>s1"><img src="assets/img/ksmedr.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body row">
                     <h5 class="card-title col-10">Yeezy Boost 350 V2 "Tail Light" sneakers</h5>
                 </div>
@@ -162,7 +162,6 @@
                 </div>
             </div>
         </div>
-
         <div class="card-deck mb-5">
             <div class="card">
                 <a href="new1.html"><img src="assets/img/cmnq.jpg" class="card-img-top" alt="..."></a>
