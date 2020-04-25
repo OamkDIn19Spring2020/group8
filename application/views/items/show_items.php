@@ -1,29 +1,36 @@
+
 <div class="row content">
-        <div class="col-8 row">
-        <?php foreach ($products as $product): ?>
-            <li>
-            <div class="col">
-                        <span><img  src="<?= $img_url .  $product['img']; ?>" height="350" width="500"></span>
-                       
-        </div>
-        <h3><?php echo $product['name']; ?></h3>
-                    </li>
-           
-        </div>
-        <div class="col-4 row content__detail">
-            <div class="col-10">
+<div id="items">
+      <?php
+     echo '<div id="a">' ;
+     echo $id ;
+echo'</div>';
+      foreach ($items as $print){
+        echo'<div id="show_0">';
+        echo '<div class="col-8 row">';
+        echo '<div class="col">';
+            echo '<img src="'.base_url('assets/img/'.$print['picture']).'" alt="" style="width:500px">';
+            echo '</div>';
+        echo '</div>';
+        echo '<div class="col-4 row content__detail">';
+            echo'<div class="col-10">';
                 
-                <h1><?php echo $product['name']; ?></h1>
-            </div>
-            <div class="col-2">
-                <p><?php echo $product['price']; ?></p>
-            </div>
-            <div class="content__description">
-                <p><?php echo $product['description']; ?></p>
-                <?php endforeach; ?>
+                echo '<h1>'.$print['name'].'</h1>';
+            echo'</div>';
+            echo'<div class="col-2">';
+                echo'<p>'.$print['price'].'</p>';
+            echo '</div>';
+            echo '<div class="content__description">';
+                echo'<p>'.$print['description'].'</p>';
                 
-                <button type="button" class="btn">Favorite <i class="far fa-heart"></i></button>
-            </div>
+                echo'<button type="button" class="btn">Favorite <i class="far fa-heart"></i></button>';
+           echo'</div>';
+        echo'</div>';
+        echo'</div>';
+        }
+        ?>
+      </div>
+     
             <div class="content__reviews">
                 <hr>
                 <a data-toggle="collapse" href="#brand-list" aria-expanded="true">

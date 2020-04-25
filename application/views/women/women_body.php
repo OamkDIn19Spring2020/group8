@@ -141,76 +141,29 @@
         </ul>
         <hr>
     </nav>
-    <div class="product col-10 container">
-        <div class="card-deck my-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/bglc.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Fila Ray Tracer Naiset</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/lp.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Fila D-Formation R wmn</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"> <img src="assets/img/htcn.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/clm.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">STAN SMITH SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/ntt.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/hcy.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/2ph.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 V2 SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/dmm.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">LXCON SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/zalo.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/tno.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">SUPERSTAR SHOES</h5>
-                </div>
-            </div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
+    
+
+    <div class="items">
+    <div class="productRow">
+        
+          <?php
+            foreach ($products as $print)
+            { 
+                
+              echo'<div id="show_0">';
+              echo '<p> '.$print['product_id']. '</p>';
+              echo   '<div class="card-body row">';
+              echo '<h5 class="card-title col-10">'.$print['name'].'</h5>';  
+              echo   '</div>';
+             echo'<p class="img" style="width : 500px;" ><img  src="'.base_url('assets/img/'.$print['picture']).'" class="card-img-top" alt="..."></p>';
+             echo '</div>';
+             echo '<p class="col-sm-5"> <button type="submit" class="btn btn-dark"><a href="'.site_url('/items/show_items/');
+             echo $print['product_id'].'">';
+			 echo 'View product</a></button></p>';
+            } 
+          ?>
+        
     </div>
+        
+</div>
 </div>

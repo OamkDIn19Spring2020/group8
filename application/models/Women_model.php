@@ -1,16 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Products_model extends CI_Model{
+class Women_model extends CI_Model{
 
   public function __construct()
   {
     parent::__construct();
+    //Codeigniter : Write Less Do More
   }
-
-  public function getProducts()
+  public function get_id()
   {
-    $this->db->select('product_id,name,price,brand,description,picture');
+    $this->db->select('*');
     $this->db->from('product');
     return $this->db->get()->result_array();
   }
