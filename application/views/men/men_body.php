@@ -141,77 +141,21 @@
         </ul>
         <hr>
     </nav>
-    <div class="product col-10 container">
-        <div class="card-deck my-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/ksmedr.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Yeezy Boost 350 V2 "Tail Light" sneakers</h5>
+    <div class="col-10 mt-3 product">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="../img/product1.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Nike Mercurial Superfly 7 Elite FG</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"><button class="btn btn-light">More</button></a>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/sacv.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">'Yeezy Boost 700 "Wave Runner"</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"> <img src="assets/img/ca.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Stand Smith</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/cmnq.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">GUCCI ACE EU38</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/ddkd.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 STAR WARS</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/htca.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD R1 Shoes White</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/tx.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">BALENCIAGA Off White Triple S Clear Sole Sneakers</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/nmelbtym.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Jordan Max Aura Miehet</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/cgh.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Jordan Jumpman Diamond Mid</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/d1c.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Adidas Originals NMD_R1 Miehet</h5>
-                </div>
-            </div>
-            <div class="card"></div>
-            <div class="card"></div>
         </div>
     </div>
 </div>
