@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar">
         <a class="navbar-brand" href="#">
-            <a href="<?php echo base_url(); ?>home"><img src="assets/img/logo.jpg" width="150" height="100" alt="logo"></a>
+            <a href="<?php echo site_url('home/home'); ?>"><img src="assets/img/logo.jpg" width="150" height="100" alt="logo"></a>
         </a>
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="search..." aria-label="Search">
