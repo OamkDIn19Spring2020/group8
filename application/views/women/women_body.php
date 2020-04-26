@@ -141,76 +141,32 @@
         </ul>
         <hr>
     </nav>
-    <div class="product col-10 container">
-        <div class="card-deck my-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/bglc.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Fila Ray Tracer Naiset</h5>
-                </div>
+    <div class="col-10 mt-3 product">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row no-gutters">
+    
+    <?php
+            foreach ($products as $print)
+            { 
+                
+                echo'<div class="col-md-4">';
+                    echo'<img src="'.base_url('assets/img/'.$print['picture']).'" class="card-img-top" alt="...">';
+                echo'</div>';
+                echo'<div class="col-md-8">';
+                    echo'<div class="card-body">';
+                        echo'<h4 class="card-title">'.$print['name'].'</h4>';
+                        echo'<p class="card-text">'.$print['description'].'</p>';
+                        echo '<p><button class="btn btn-light"><a href="'.site_url('/items/show_items/');
+                            echo $print['product_id'].'">';
+                              echo 'View</a></button></p>';
+                    echo'</div>';
+                 echo'</div>';
+         
+             } 
+    ?>
             </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/lp.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">Fila D-Formation R wmn</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"> <img src="assets/img/htcn.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/clm.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">STAN SMITH SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/ntt.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/hcy.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/2ph.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 V2 SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/dmm.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">LXCON SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/zalo.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NITE JOGGER SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/tno.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">SUPERSTAR SHOES</h5>
-                </div>
-            </div>
-            <div class="card"></div>
-            <div class="card"></div>
         </div>
     </div>
 </div>
+
+

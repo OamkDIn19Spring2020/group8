@@ -197,4 +197,14 @@
 .wall .left .list #color-list .containerlabel .red {
   background: red;
 }
+
+.wall .product .row img {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.wall .product .row .col-md-8 {
+  margin: auto 0;
+  width: 50%;
+}
 /*# sourceMappingURL=men.css.map */

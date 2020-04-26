@@ -6,14 +6,8 @@
                 <div class="empty"></div>
                 <h2>Subscribe to our newsletters</h2>
                 <form>
-                    <div class="form-group row">
-                        <div class="col-sm-7">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                        </div>
-                        <div class="col-sm-5">
-                            <button type="submit" class="btn btn-dark">SIGN UP</button>
-                        </div>
-                    </div>
+                
+                <?php $this->load->view('subscriber/subscribe');?>
                     <div class="form-group row">
                         <div class="col-sm-10">
                             <div class="form-check">
@@ -39,10 +33,10 @@
         <div class="empty"></div>
         <div class="row text-white">
             <div class="col-6">
-                <a href="<?php echo base_url(); ?>home"><img src="assets/img/logo.jpg" height="150" width="150" alt=""></a>
+                <img src="<?php echo base_url();?>assets/img/logo.jpg" height="150" width="150" alt="">
                 <div class="my-5">
                     <p>SneakerHead <i class="far fa-registered"></i> is a project of Ha Quyen and Thinh Nguyen.</p>
-                    <p>For feedback, please contact via email <a href="mailto: t9qutr00@students.oamk.fi">t9qutr00@students.oamk.fi</a> or <a href="mailto: t9ngdu00@students.oamk.fi">t9ngdu00@students.oamk.fi</a>
+                    <p>For feedback, please contact via email t9qutr00@studetns.oamk.fi or t9ngdu00@students.oamk.fi
                     </p>
                 </div>
             </div>

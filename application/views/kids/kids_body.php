@@ -141,76 +141,31 @@
         </ul>
         <hr>
     </nav>
-    <div class="product col-10 container">
-        <div class="card-deck my-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/zalo.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">SUPERSTAR SHOES</h5>
-                </div>
+    <div class="col-10 mt-3 product">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row no-gutters">
+    
+    <?php
+            foreach ($products as $row)
+            { 
+                echo'<div class="col-md-4">';
+                    echo'<img src="'.base_url('assets/img/'.$row['picture']).'" class="card-img-top" alt="...">';
+                echo'</div>';
+                echo'<div class="col-md-8">';
+                    echo'<div class="card-body">';
+                        echo'<h4 class="card-title">'.$row['name'].'</h4>';
+                        echo'<p class="card-text">'.$row['description'].'</p>';
+                        echo '<p><button class="btn btn-light"><a href="'.site_url('/items/show_items/');
+                            echo $row['product_id'].'">';
+                              echo '</a>View product</button></p>';
+                    echo'</div>';
+                 echo'</div>';
+         
+             } 
+    ?>
             </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/fb.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">HOOPS MID 2.0 SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"> <img src="assets/img/ins.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">ULTRABOOST 20 SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/mess.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">CLOUDFOAM PURE SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/snap.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">ADVANTAGE SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/atenm.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 V2 SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/mcnd.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">U_PATH RUN SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/mynd.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">ZX FLUX SHOES</h5>
-                </div>
-            </div>
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/mlgcn.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">CLOUDFOAM PURE SHOES</h5>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mb-5">
-            <div class="card">
-                <a href="new1.html"><img src="assets/img/1tl.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body row">
-                    <h5 class="card-title col-10">NMD_R1 SHOES</h5>
-                </div>
-            </div>
-            <div class="card"></div>
-            <div class="card"></div>
         </div>
     </div>
 </div>
+
+
