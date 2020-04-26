@@ -23,7 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/group8/';
+$config['base_url'] = 'http://www.students.oamk.fi/~t9ngdu00/group8/';
 
 /*
 |--------------------------------------------------------------------------
@@ -136,7 +136,7 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = '/Applications/MAMP/htdocs/school/vendor/autoload.php';
+$config['composer_autoload'] = '/group8/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
