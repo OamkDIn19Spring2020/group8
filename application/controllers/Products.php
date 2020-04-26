@@ -9,15 +9,8 @@ class Products extends CI_Controller{
     $this->load->model('Products_model');
   }
 
-
-  
-  
   function show_products()
   {
-    
-
     $data['products'] = $this->Products_model->getProducts();
-
     $data['page']='products/show_products';
-   
   }
