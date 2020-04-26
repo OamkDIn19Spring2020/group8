@@ -155,9 +155,9 @@
                     echo'<div class="card-body">';
                         echo'<h4 class="card-title">'.$row['name'].'</h4>';
                         echo'<p class="card-text">'.$row['description'].'</p>';
-                        echo '<p><button class="btn btn-light"><a href="'.site_url('/items/show_items/');
-                            echo $row['product_id'].'">';
-                              echo '</a>View product</button></p>';
+                        echo '<a href="' . site_url('/items/show_items/');
+                    echo $row['product_id'] . '"><button class="btn btn-light">';
+                    echo 'More...</button></a>';
                     echo'</div>';
                  echo'</div>';
          

@@ -21,3 +21,4 @@ class Products extends CI_Controller{
     $data['page']='products/show_products';
    
   }
+}
