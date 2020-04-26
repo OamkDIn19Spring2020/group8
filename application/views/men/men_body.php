@@ -144,29 +144,23 @@
     <div class="col-10 mt-3 product">
         <div class="card mb-3" style="width: 100%;">
             <div class="row no-gutters">
-    
-    <?php
-            foreach ($products as $print)
-            { 
-                
-                echo'<div class="col-md-4">';
-                    echo'<img src="'.base_url('assets/img/'.$print['picture']).'" class="card-img-top" alt="...">';
-                echo'</div>';
-                echo'<div class="col-md-8">';
-                    echo'<div class="card-body">';
-                        echo'<h4 class="card-title">'.$print['name'].'</h4>';
-                        echo'<p class="card-text">'.$print['description'].'</p>';
-                        echo '<p><button class="btn btn-light"><a href="'.site_url('/items/show_items/');
-                            echo $print['product_id'].'">';
-                              echo 'View</a></button></p>';
-                    echo'</div>';
-                 echo'</div>';
-         
-             } 
-    ?>
+                <?php
+                foreach ($products as $print) {
+                    echo '<div class="col-md-4">';
+                    echo '<img src="' . base_url('assets/img/' . $print['picture']) . '" class="card-img-top" alt="...">';
+                    echo '</div>';
+                    echo '<div class="col-md-8">';
+                    echo '<div class="card-body">';
+                    echo '<h4 class="card-title">' . $print['name'] . '</h4>';
+                    echo '<p class="card-text">' . $print['description'] . '</p>';
+                    echo '<a href="' . site_url('/items/show_items/');
+                    echo $row['product_id'] . '"><button class="btn btn-light">';
+                    echo 'More...</button></a>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+                ?>
             </div>
         </div>
     </div>
 </div>
-
-

@@ -1,8 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Items_model extends CI_Model{
-
+class Items_model extends CI_Model
+{
   public function __construct()
   {
     parent::__construct();
@@ -12,9 +12,7 @@ class Items_model extends CI_Model{
   {
     $this->db->select('*');
     $this->db->from('product');
-    $this->db->where('product_id',$id);
+    $this->db->where('product_id', $id);
     return $this->db->get()->result_array();
   }
-  
-
 }
