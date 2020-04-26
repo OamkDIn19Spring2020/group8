@@ -75,10 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'students.oamk.fi',
+	'hostname' => 'mysli.oamk.fi',
 	'username' => 't9ngdu00',
-	'password' => 'gfSc2XdLXRrFGBQ9',
-	'database' => 'group8',
+	'password' => 'M3NAPWXWdPfA7cXp
+	',
+	'database' => 'opisk_t9ngdu00',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
