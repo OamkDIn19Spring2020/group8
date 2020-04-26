@@ -7,9 +7,7 @@ class Subscriber extends CI_Controller
         $this->load->model('Subscriber_model');
         $this->load->helper('url_helper');
     }
-    
-   
-    }
+
     public function subscribe()
     {
         $this->load->helper('form');
@@ -18,14 +16,12 @@ class Subscriber extends CI_Controller
         $data['title'] = 'SIGN UP';
 
         $this->form_validation->set_rules('email', 'Email', 'required');
-        
-        if ($this->form_validation->run() === FALSE) {
-            $this->load->view('subscriber/subscribe'); 
 
+        if ($this->form_validation->run() === FALSE) {
+            $this->load->view('subscriber/subscribe');
         } else {
             $this->subscriber_model->set_subscriber();
             $this->load->view('subscriber/success');
         }
     }
-    
 }

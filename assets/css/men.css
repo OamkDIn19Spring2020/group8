@@ -13,8 +13,10 @@
 }
 
 .sortby .fa {
-  -webkit-transition: .3s transform ease-in-out;
-  transition: .3s transform ease-in-out;
+  -webkit-transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
 }
 
 .sortby .show .fa {
@@ -38,8 +40,10 @@
 }
 
 .wall .left .list a .fas {
-  -webkit-transition: .3s transform ease-in-out;
-  transition: .3s transform ease-in-out;
+  -webkit-transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
 }
 
 .wall .left .list .collapsed .fas {
@@ -51,11 +55,15 @@
   padding-left: 0;
 }
 
-.wall .left .list #brand-list, .wall .left .list #price-list, .wall .left .list #material-list {
+.wall .left .list #brand-list,
+.wall .left .list #price-list,
+.wall .left .list #material-list {
   list-style-type: none;
 }
 
-.wall .left .list #brand-list .containerbox, .wall .left .list #price-list .containerbox, .wall .left .list #material-list .containerbox {
+.wall .left .list #brand-list .containerbox,
+.wall .left .list #price-list .containerbox,
+.wall .left .list #material-list .containerbox {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -67,7 +75,9 @@
           user-select: none;
 }
 
-.wall .left .list #brand-list .containerbox input, .wall .left .list #price-list .containerbox input, .wall .left .list #material-list .containerbox input {
+.wall .left .list #brand-list .containerbox input,
+.wall .left .list #price-list .containerbox input,
+.wall .left .list #material-list .containerbox input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -75,11 +85,15 @@
   width: 0;
 }
 
-.wall .left .list #brand-list .containerbox input:checked ~ .checkmark:after, .wall .left .list #price-list .containerbox input:checked ~ .checkmark:after, .wall .left .list #material-list .containerbox input:checked ~ .checkmark:after {
+.wall .left .list #brand-list .containerbox input:checked ~ .checkmark:after,
+.wall .left .list #price-list .containerbox input:checked ~ .checkmark:after,
+.wall .left .list #material-list .containerbox input:checked ~ .checkmark:after {
   display: block;
 }
 
-.wall .left .list #brand-list .containerbox .checkmark, .wall .left .list #price-list .containerbox .checkmark, .wall .left .list #material-list .containerbox .checkmark {
+.wall .left .list #brand-list .containerbox .checkmark,
+.wall .left .list #price-list .containerbox .checkmark,
+.wall .left .list #material-list .containerbox .checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -87,7 +101,9 @@
   width: 25px;
 }
 
-.wall .left .list #brand-list .containerbox .checkmark:after, .wall .left .list #price-list .containerbox .checkmark:after, .wall .left .list #material-list .containerbox .checkmark:after {
+.wall .left .list #brand-list .containerbox .checkmark:after,
+.wall .left .list #price-list .containerbox .checkmark:after,
+.wall .left .list #material-list .containerbox .checkmark:after {
   left: 9px;
   top: 5px;
   width: 5px;
@@ -98,7 +114,9 @@
           transform: rotate(45deg);
 }
 
-.wall .left .list #brand-list .checkmark:after, .wall .left .list #price-list .checkmark:after, .wall .left .list #material-list .checkmark:after {
+.wall .left .list #brand-list .checkmark:after,
+.wall .left .list #price-list .checkmark:after,
+.wall .left .list #material-list .checkmark:after {
   content: "";
   position: absolute;
   display: none;
@@ -196,15 +214,5 @@
 
 .wall .left .list #color-list .containerlabel .red {
   background: red;
-}
-
-.wall .product .row img {
-  width: 100%;
-  padding: 20px 20px;
-}
-
-.wall .product .row .col-md-8 {
-  margin: auto 0;
-  width: 50%;
 }
 /*# sourceMappingURL=men.css.map */
