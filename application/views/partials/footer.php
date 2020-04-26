@@ -32,7 +32,7 @@
         <div class="empty"></div>
         <div class="row text-white">
             <div class="col-6">
-                <img src="<?php echo base_url(); ?>assets/img/logo.jpg" height="150" width="150" alt="">
+                <img src="assets/img/logo.jpg" height="150" width="150" alt="">
                 <div class="my-5">
                     <p>SneakerHead <i class="far fa-registered"></i> is a project of Ha Quyen and Thinh Nguyen.</p>
                     <p>For feedback, please contact via email t9qutr00@studetns.oamk.fi or t9ngdu00@students.oamk.fi
