@@ -141,29 +141,32 @@
         </ul>
         <hr>
     </nav>
+    <div class="col-10 mt-3 product">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row no-gutters">
     
-
-    <div class="items">
-  
-        
-          <?php
-            foreach ($products as $row)
+    <?php
+            foreach ($products as $print)
             { 
                 
-              echo'<div id="show_0">';
-              echo '<p> '.$row['product_id']. '</p>';
-              echo   '<div class="card-body row">';
-              echo '<h5 class="card-title col-10">'.$row['name'].'</h5>';  
-              echo   '</div>';
-             echo'<p class="img" style="width : 500px;" ><img  src="'.base_url('assets/img/'.$row['picture']).'" class="card-img-top" alt="..."></p>';
-             echo '</div>';
-             echo '<p class="col-sm-5"> <button type="submit" class="btn btn-dark"><a href="'.site_url('/items/show_items/');
-             echo $row['product_id'].'">';
-			 echo 'View product</a></button></p>';
-            } 
-          ?>
-        
+                echo'<div class="col-md-4">';
+                    echo'<img src="'.base_url('assets/img/'.$print['picture']).'" class="card-img-top" alt="...">';
+                echo'</div>';
+                echo'<div class="col-md-8">';
+                    echo'<div class="card-body">';
+                        echo'<h4 class="card-title">'.$print['name'].'</h4>';
+                        echo'<p class="card-text">'.$print['description'].'</p>';
+                        echo '<p><button class="btn btn-light"><a href="'.site_url('/items/show_items/');
+                            echo $print['product_id'].'">';
+                              echo 'View</a></button></p>';
+                    echo'</div>';
+                 echo'</div>';
+         
+             } 
+    ?>
+            </div>
+        </div>
     </div>
-        
 </div>
-</div>
+
+
