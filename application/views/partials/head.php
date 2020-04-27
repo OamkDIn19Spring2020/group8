@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/men.css">
-    <link rel="stylesheet" href="assets/css/new.css">
     <link rel="stylesheet" href="assets/css/shoe.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
