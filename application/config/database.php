@@ -77,8 +77,7 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'mysli.oamk.fi',
 	'username' => 't9ngdu00',
-	'password' => 'M3NAPWXWdPfA7cXp
-	',
+	'password' => 'M3NAPWXWdPfA7cXp',
 	'database' => 'opisk_t9ngdu00',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

@@ -2,16 +2,16 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/slideshow1.jpg" class="d-block w-100" height="750" alt="...">
+                <img src="<?php echo base_url(); ?>assets/img/slideshow1.jpg" class="d-block w-100" height="750" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/slideshow2.jpg" class="d-block w-100" height="750" alt="...">
+                <img src="<?php echo base_url(); ?>assets/img/slideshow2.jpg" class="d-block w-100" height="750" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/slideshow3.jpg" class="d-block w-100" height="750" alt="...">
+                <img src="<?php echo base_url(); ?>assets/img/slideshow3.jpg" class="d-block w-100" height="750" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/slideshow4.jpg" class="d-block w-100" height="750" alt="...">
+                <img src="<?php echo base_url(); ?>assets/img/slideshow4.jpg" class="d-block w-100" height="750" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -28,20 +28,20 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href=""><img src="assets/img/popularnews1.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/popularnews1.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">out of comfortable zone</a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="assets/img/popularnews2.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/popularnews2.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">sb dunk japan exclusive in 2001 will be retroed in this year</a>
                 </h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="assets/img/popularnews3.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/popularnews3.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">beyonce x adidas collection</a></h5>
             </div>
@@ -64,9 +64,9 @@
                 <div class="col-12 left__men">
                     <div>
                         <figure>
-                            <a <?php echo base_url(); ?>men><img src="assets/img/seeing1.jpg" alt=""></a>
+                            <a <?php echo site_url('men/men_body'); ?>><img src="<?php echo base_url(); ?>assets/img/seeing1.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo base_url(); ?>men>men footwear</a></h4>
+                        <h4><a <?php echo site_url('men/men_body'); ?>>men footwear</a></h4>
                     </div>
                 </div>
             </div>
@@ -74,16 +74,16 @@
                 <div class="col-12 right__women">
                     <div>
                         <figure>
-                            <a <?php echo base_url(); ?>women><img src="assets/img/seeing2.jpg" alt=""></a>
+                            <a <?php echo site_url('women/women_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing2.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo base_url(); ?>women>women footwear</a></h4>
+                        <h4><a <?php site_url('women/women_body'); ?>>women footwear</a></h4>
                     </div>
                     <div style="height: 80px"></div>
                     <div>
                         <figure>
-                            <a <?php echo base_url(); ?>kids><img src="assets/img/seeing3.jpg" alt=""></a>
+                            <a <?php echo site_url('kids/kids_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing3.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo base_url(); ?>kids>kids footwear</a></h4>
+                        <h4><a <?php echo site_url('kids/kids_body') ?>>kids footwear</a></h4>
                     </div>
                 </div>
             </div>
@@ -94,40 +94,40 @@
     <div class="empty"></div>
     <div class="owl-carousel owl-theme">
         <div class="item">
-            <img src="assets/img/carousel1.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel1.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel2.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel2.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel3.jpg" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel3.jpg" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel4.jpg" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel4.jpg" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel5.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel5.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel6.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel6.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel7.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel7.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel8.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel8.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel9.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel9.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel10.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel10.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel11.png" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel11.png" alt="">
         </div>
         <div class="item">
-            <img src="assets/img/carousel12.svg" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/carousel12.svg" alt="">
         </div>
     </div>
     <div class="empty"></div>
