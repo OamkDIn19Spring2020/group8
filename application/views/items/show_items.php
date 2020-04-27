@@ -7,11 +7,11 @@
         echo '</div>';
         echo '</div>';
         echo '<div class="col-4 row content__detail">';
-        echo '<div class="col-10">';
-        echo '<h1>' . $print['name'] . '</h1>';
+        echo '<div class="col-9">';
+        echo '<h2>' . $print['name'] . '</h2>';
         echo '</div>';
-        echo '<div class="col-2">';
-        echo '<h3>' . $print['price'] . '</h3>';
+        echo '<div class="col-3">';
+        echo '<h4>' . $print['price'] . '</h4>';
         echo '</div>';
         echo '<div class="content__description">';
         echo '<p>' . $print['description'] . '</p>';
