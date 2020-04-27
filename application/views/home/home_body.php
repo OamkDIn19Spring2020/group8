@@ -64,9 +64,9 @@
                 <div class="col-12 left__men">
                     <div>
                         <figure>
-                            <a <?php echo site_url('men/men_body'); ?>><img src="<?php echo base_url(); ?>assets/img/seeing1.jpg" alt=""></a>
+                            <a href="<?php echo site_url('men/men_body'); ?>"><img src="<?php echo base_url(); ?>assets/img/seeing1.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo site_url('men/men_body'); ?>>men footwear</a></h4>
+                        <h4><a href="<?php echo site_url('men/men_body'); ?>">men footwear</a></h4>
                     </div>
                 </div>
             </div>
@@ -74,16 +74,16 @@
                 <div class="col-12 right__women">
                     <div>
                         <figure>
-                            <a <?php echo site_url('women/women_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing2.jpg" alt=""></a>
+                            <a href="<?php echo site_url('women/women_body') ?>"><img src="<?php echo base_url(); ?>assets/img/seeing2.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php site_url('women/women_body'); ?>>women footwear</a></h4>
+                        <h4><a href="<?php site_url('women/women_body'); ?>">women footwear</a></h4>
                     </div>
                     <div style="height: 80px"></div>
                     <div>
                         <figure>
-                            <a <?php echo site_url('kids/kids_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing3.jpg" alt=""></a>
+                            <a href="<?php echo site_url('kids/kids_body') ?>"><img src="<?php echo base_url(); ?>assets/img/seeing3.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo site_url('kids/kids_body') ?>>kids footwear</a></h4>
+                        <h4><a href="<?php echo site_url('kids/kids_body') ?>">kids footwear</a></h4>
                     </div>
                 </div>
             </div>
