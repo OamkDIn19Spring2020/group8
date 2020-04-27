@@ -12,12 +12,12 @@ class Home extends CI_Controller
     {
         $data = array(
             'title' => 'Home',
-            'home' =>  '<a class="nav-item nav-link" style="color:white" href="' . site_url('home/home') . '">HOME</a>',
-            'men' =>  '<a class="nav-item nav-link" style="color:white" href="' . site_url('men/men_body') . '">men</a>',
-            'women' => '<a class="nav-item nav-link" href="' . site_url('women/women_body') . '">WOMEN</a>',
-            'kids' => '<a class="nav-item nav-link" href="' . site_url('kids/kids_body') . '">KIDS</a>',
-            'news' => '<a class="nav-item nav-link" href="' . site_url('news/news') . '">NEWS</a>',
-            'contact' => '<a class="nav-item nav-link" href="' . site_url('contact/contact') . '">CONTACT</a>',
+            'home' =>   '<a class="nav-item nav-link" style="color:white"  href="' . base_url() . 'index.php/home">HOME</a>',
+            'men' =>    '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/men/men_body">MEN</a>',
+            'women' =>  '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/women/women_body">WOMEN</a>',
+            'kids' =>   '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/kids/kids_body">KIDS</a>',
+            'news' =>   '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/news">NEWS</a>',
+            'contact' =>'<a class="nav-item nav-link"   href="' . base_url() . 'index.php/contact">CONTACT</a>'
         );
         $this->load->view('home/home', $data);
     }

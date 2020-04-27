@@ -1,6 +1,6 @@
 <div class="row logincontainer">
     <div class="col-7 imagine">
-        <img src="assets/img/login.jpg" alt="">
+        <img src="<?php echo base_url(); ?>assets/img/login.jpg" alt="">
     </div>
     <div class="col login">
         <form method="post" action="<?php echo base_url(); ?>register/validation">

@@ -3,16 +3,16 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../img/anca (1).jpg" class="d-block w-100" height="650" alt="...">
+                    <img src="<?php echo base_url(); ?>assets/img/anca (1).jpg" class="d-block w-100" height="650" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../img/mh.jpg" class="d-block w-100" height="650" alt="...">
+                    <img src="<?php echo base_url(); ?>assets/img/mh.jpg" class="d-block w-100" height="650" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../img/hnbmg.jpg" class="d-block w-100" height="650" alt="...">
+                    <img src="<?php echo base_url(); ?>assets/img/hnbmg.jpg" class="d-block w-100" height="650" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../img/nd.png" class="d-block w-100" height="650" alt="...">
+                    <img src="<?php echo base_url(); ?>assets/img/nd.png" class="d-block w-100" height="650" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -31,7 +31,7 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href="new1.html"><img src="../img/ps1cg.jpg" class="card-img-top" alt="..."></a>
+            <a href="new1.html"><img src="<?php echo base_url(); ?>assets/img/ps1cg.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""> Top 8 sports shoes trends are hot now and in the future
                         Chunky Sneaker trend
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="card col">
-            <a href="new2.html"><img src="../img/yltd.jpg" class="card-img-top" alt="..."></a>
+            <a href="new2.html"><img src="<?php echo base_url(); ?>assets/img/yltd.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">Top 12 hot sneakers now
                         Louis Vuitton - Archligh
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="card col">
-            <a href="new3.html"><img src="../img/soleex.jpg" class="card-img-top" alt="..."></a>
+            <a href="new3.html"><img src="<?php echo base_url(); ?>assets/img/soleex.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">Sole Ex - an event hosted by HNBMG, first held in 2016 has made a huge buzz and has also become an indispensable spiritual dish for the "top shoe" in all regions. country. Sole Ex 2019 - will be held on the coming November 24 at SVD Quan Khu 7, promising to be a good playground for people from the terrestrial culture in particular and fashion enthusiasts. general. But, what is Sole Ex so attractive?</a></h5>
             </div>
@@ -84,20 +84,20 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href=""><img src="../img/1.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/1.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">1.Yeezy 700</a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/2.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">2.Balenciaga Triple S “Neon Green”</a>
                 </h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/3.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/3.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">3.M2K Tekno</a></h5>
             </div>
@@ -122,20 +122,20 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href=""><img src="../img/4.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/4.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">4.Nike Air Max 1 “Golf Grass”</a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/5.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/5.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">5.Converse 70s x Tyler The Creator</a>
                 </h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/6.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/6.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">6.Adidas Deerupt</a></h5>
             </div>
@@ -160,13 +160,13 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href=""><img src="../img/7.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/7.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">7.Air Jordan 4”</a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/8.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/8.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="">8. Futurecraft </a>
                 </h5>
@@ -215,20 +215,20 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href=""><img src="../img/2.2.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.2.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/2.3.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.3.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a>
                 </h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/2.4.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.4.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a></h5>
             </div>
@@ -253,26 +253,26 @@
     <div class="empty"></div>
     <div class="card-group row">
         <div class="card col">
-            <a href=""><img src="../img/2.5.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.5.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/2.6.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.6.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a>
                 </h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/2.7.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.7.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a></h5>
             </div>
         </div>
         <div class="card col">
-            <a href=""><img src="../img/2.8.jpg" class="card-img-top" alt="..."></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/2.8.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <h5 class="card-title"><a href=""></a></h5>
             </div>
@@ -292,7 +292,7 @@
     <div class="empty"></div>
     <div class="card-group row"></div>
     <div class="card col"></div>
-    <a href=""><img src="../img/3.1.jpg"></a>
+    <a href=""><img src="<?php echo base_url(); ?>assets/img/3.1.jpg"></a>
     <div class="card-body"></div>
 
 </div>
@@ -308,7 +308,7 @@
     <div class="empty"></div>
     <div class="card-group row"></div>
     <div class="card col"></div>
-    <a href=""><img src="../img/3.2.jpg"></a>
+    <a href=""><img src="<?php echo base_url(); ?>assets/img/3.2.jpg"></a>
     <div class="card-body"></div>
 </div>
 
@@ -316,7 +316,7 @@
     <div class="empty"></div>
     <div class="card-group row"></div>
     <div class="card col"></div>
-    <a href=""><img src="../img/3.3.jpg"></a>
+    <a href=""><img src="<?php echo base_url(); ?>assets/img/3.3.jpg"></a>
     <div class="card-body"></div>
 </div>
 
@@ -324,7 +324,7 @@
     <div class="empty"></div>
     <div class="card-group row"></div>
     <div class="card col"></div>
-    <a href=""><img src="../img/3.4.jpg" height="1000" width="900"></a>
+    <a href=""><img src="<?php echo base_url(); ?>assets/img/3.4.jpg" height="1000" width="900"></a>
     <div class="card-body"></div>
 </div>
 
@@ -332,7 +332,7 @@
     <div class="empty"></div>
     <div class="card-group row"></div>
     <div class="card col"></div>
-    <a href=""><img src="../img/3.5.jpg"></a>
+    <a href=""><img src="<?php echo base_url(); ?>assets/img/3.5.jpg"></a>
     <div class="card-body"></div>
 </div>
 
@@ -351,35 +351,35 @@
             <div class="empty"></div>
             <div class="card-group row"></div>
             <div class="card col"></div>
-            <a href=""><img src="../img/3.6.jpg" height="1000" width="1100"></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/3.6.jpg" height="1000" width="1100"></a>
             <div class="card-body"></div>
         </div>
         <div class="container popularNews">
             <div class="empty"></div>
             <div class="card-group row"></div>
             <div class="card col"></div>
-            <a href=""><img src="../img/3.7.jpg" height="1000" width="1100"></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/3.7.jpg" height="1000" width="1100"></a>
             <div class="card-body"></div>
         </div>
         <div class="container popularNews">
             <div class="empty"></div>
             <div class="card-group row"></div>
             <div class="card col"></div>
-            <a href=""><img src="../img/3.8.jpg" height="1000" width="1100"></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/3.8.jpg" height="1000" width="1100"></a>
             <div class="card-body"></div>
         </div>
         <div class="container popularNews">
             <div class="empty"></div>
             <div class="card-group row"></div>
             <div class="card col"></div>
-            <a href=""><img src="../img/3.9.jpg" height="1000" width="1100"></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/3.9.jpg" height="1000" width="1100"></a>
             <div class="card-body"></div>
         </div>
         <div class="container popularNews">
             <div class="empty"></div>
             <div class="card-group row"></div>
             <div class="card col"></div>
-            <a href=""><img src="../img/3.10.jpg" height="1000" width="1100"></a>
+            <a href=""><img src="<?php echo base_url(); ?>assets/img/3.10.jpg" height="1000" width="1100"></a>
             <div class="card-body"></div>
         </div>
     </article>
