@@ -15,8 +15,8 @@
         echo '</div>';
         echo '<div class="content__description">';
         echo '<p>' . $print['description'] . '</p>';
+		echo '<button type="button" class="btn">Favorite <i class="far fa-heart"></i></button>';
         echo '</div>';
-        echo '<button type="button" class="btn">Favorite <i class="far fa-heart"></i></button>';
         echo '<div class="content__reviews">';
         echo '<hr>';
         echo '<a data-toggle="collapse" href="#brand-list" aria-expanded="true">';
@@ -25,8 +25,8 @@
         echo '<i class="fas fa-star"></i>';
         echo '<i class="fas fa-star"></i>';
         echo '<i class="fas fa-star"></i>';
-        echo '<i class="fas fa-star"></i>';
-        echo '<i class="fas fa-star"></i>';
+		echo '<i class="far fa-star"></i>';
+		echo '<i class="fas fa-caret-down"></i>';
         echo '</a>';
         echo '<ul id="brand-list" class="collapse show form-group">';
         echo '<li class="item">';
@@ -39,7 +39,7 @@
         echo '<i class="fas fa-star"></i>';
         echo '<i class="fas fa-star"></i>';
         echo '<i class="fas fa-star"></i>';
-        echo '<i class="fas fa-star"></i>';
+        echo '<i class="far fa-star"></i>';
         echo '</div>';
         echo '<p class="content__reviews__acount">thinhbeouuu123zo - 20 March 2020</p>';
         echo '<p class="content__reviews_review">best cleats i’ve ever owned no doubt about it</p>';
