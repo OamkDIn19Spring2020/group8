@@ -1,12 +1,9 @@
 <div class="row content">
     <?php
-    echo '<div id="a">';
-    echo $id;
-    echo '</div>';
     foreach ($items as $print) {
         echo '<div class="col-8 row">';
         echo '<div class="col">';
-        echo '<img src="' . base_url('assets/img/' . $print['picture']) . '" alt="" style="width:500px">';
+        echo '<img src="' . base_url('assets/img/' . $print['picture']) . '" alt="">';
         echo '</div>';
         echo '</div>';
         echo '<div class="col-4 row content__detail">';
