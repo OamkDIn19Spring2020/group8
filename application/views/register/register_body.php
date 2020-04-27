@@ -3,7 +3,7 @@
         <img src="<?php echo base_url(); ?>assets/img/login.jpg" alt="">
     </div>
     <div class="col login">
-        <form method="post" action="<?php echo base_url(); ?>register/validation">
+        <form method="post" action="<?php echo base_url(); ?>index.php/register/validation">
             <p class="login__title">register</p>
             <div class="form-group">
                 <label>First name</label>
