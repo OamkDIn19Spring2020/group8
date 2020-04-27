@@ -7,7 +7,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder="search..." aria-label="Search">
         </form>
         <div class="avatar">
-            <img src="<?php echo base_url(); ?>assets/img/ava.jpg" alt="ava">
+            <img src="assets/img/ava.jpg" alt="ava">
             <a href="<?php echo base_url(); ?>myprofile">My profile</a>
         </div>
     </nav>
