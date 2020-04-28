@@ -38,7 +38,7 @@
             <div class="form-group">
                 <input type="submit" class="form-control" name="register" value="Register" class="btn btn-info" />
             </div>
-            <p class="login__signup">or <a href="<?php echo base_url(); ?>login">Login</a></p>
+            <p class="login__signup">or <a href="<?php echo base_url(); ?>index.php/login">Login</a></p>
         </form>
     </div>
 </div>

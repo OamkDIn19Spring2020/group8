@@ -198,7 +198,7 @@
     <div class="empty"></div>
     <div class="card-group row"></div>
     <div class="card col"></div>
-    <a href=""><img src="../img/2.1.jpg"></a>
+    <a href=""><img src="<?php echo base_url(); ?>assets/img/2.1.jpg"></a>
     <div class="card-body"></div>
 </div>
 

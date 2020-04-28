@@ -8,7 +8,7 @@ class Login extends CI_Controller
     {
         parent::__construct();
         if ($this->session->userdata('id')) {
-            redirect('myprofile');
+            redirect('index.php/myprofile');
         }
         $this->load->library('form_validation');
         $this->load->library('encryption');
@@ -36,10 +36,10 @@ class Login extends CI_Controller
         if ($this->form_validation->run()) {
             $result = $this->login_model->can_login($this->input->post('user_email'), $this->input->post('user_password'));
             if ($result == '') {
-                redirect('myprofile');
+                redirect('index.php/myprofile');
             } else {
                 $this->session->set_flashdata('message', $result);
-                redirect('login');
+                redirect('index.php/login');
             }
         } else {
             $this->index();

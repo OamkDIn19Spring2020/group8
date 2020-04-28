@@ -5,7 +5,7 @@
                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-myprofile" role="tab" aria-controls="v-pills-home" aria-selected="true">My Profile</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-favorite" role="tab" aria-controls="v-pills-messages" aria-selected="false">My Favorite</a>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-review" role="tab" aria-controls="v-pills-profile" aria-selected="false">My Reviews</a>
-                <?php echo '<a class="nav-link" href="' . base_url() . 'myprofile/logout">Logout</a>'; ?>
+                <?php echo '<a class="nav-link" href="' . base_url() . 'index.php/myprofile/logout">Logout</a>'; ?>
             </div>
         </aside>
         <div class="tab-content col-9" id="v-pills-tabContent">
@@ -51,17 +51,13 @@
                         <div class="col-4">
                             <p class="thead">phone</p>
                         </div>
-                        <div class="col-8">
-                            <p><?php echo $row->phone; ?></p>
-                        </div>
+                        
                     </div>
                     <div class="profile__contactinfo--email line row">
                         <div class="col-4">
                             <p class="thead">email</p>
                         </div>
-                        <div class="col-8">
-                            <p><?php echo $row->email; ?></p>
-                        </div>
+                        
                     <?php
                         }
                     } else {

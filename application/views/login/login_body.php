@@ -12,7 +12,7 @@
                     ';
         }
         ?>
-        <form method="post" action="<?php echo base_url(); ?>login/validation">
+        <form method="post" action="<?php echo base_url(); ?>index.php/login/validation">
             <p class="login__title">login to continue</p>
             <div class="form-group">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="user_email" value="<?php echo set_value('user_email'); ?>">
@@ -27,7 +27,7 @@
             <div class="form-group">
                 <input type="submit" class="form-control" style="color: white;background: #6675df;text-transform: uppercase;" name="login" value="Login" class="btn btn-info" />
             </div>
-            <p class="login__signup">or <a href="<?php echo base_url(); ?>register">Register</a></p>
+            <p class="login__signup">or <a href="<?php echo base_url(); ?>index.php/register">Register</a></p>
         </form>
     </div>
 </div>

@@ -51,7 +51,7 @@
 <div class="seeing">
     <div class="container mt-5 pt-5">
         <span>
-            <img src="assets/img/background-1.png" height="400" width="400" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/background-1.png" height="400" width="400" alt="">
         </span>
         <div class="row justify-content-between seeing__content pt-5">
             <div class="col-md-7 col-lg-7 row left">
