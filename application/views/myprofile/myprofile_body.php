@@ -9,7 +9,7 @@
             </div>
         </aside>
         <div class="tab-content col-9" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-myprofile" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="tab-pane fade show active" id="v-pills-myprofile" role="tabpanel" aria-labelledby="v-pills-home-tab">
                 <h2 class="text-center">Personal Info</h2>
                 <p class="text-center" style="color: rgb(95, 99, 104);">Basic info, like your name and photo,
                     that you use
@@ -43,32 +43,30 @@
                                     </p>
                                 </div>
                             </div>
-                </div>
-                <div class="profile__contactinfo">
-                    <h4>Contact info</h4>
-                    <p></p>
-                    <div class="profile__contactinfo--phone line row">
-                        <div class="col-4">
-                            <p class="thead">phone</p>
-                        </div>
-                        
-                    </div>
-                    <div class="profile__contactinfo--email line row">
-                        <div class="col-4">
-                            <p class="thead">email</p>
-                        </div>
-                        
-                    <?php
+                            <div class="profile__contactinfo">
+                                <h4>Contact info</h4>
+                                <p></p>
+                                <div class="profile__contactinfo--phone line row">
+                                    <div class="col-4">
+                                        <p class="thead">phone</p>
+                                    </div>
+                                </div>
+                                <div class="profile__contactinfo--email line row">
+                                    <div class="col-4">
+                                        <p class="thead">email</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php
                         }
                     } else {
-                    ?>
-                    <tr>
-                        <td colspan="5">No data found</td>
-                    </tr>
-                <?php
+                        ?>
+                        <tr>
+                            <td colspan="5">No data found</td>
+                        </tr>
+                    <?php
                     }
-                ?>
-                    </div>
+                    ?>
                 </div>
             </div>
             <div class="tab-pane fade" id="v-pills-favorite" role="tabpanel" aria-labelledby="v-pills-favorite-tab">
