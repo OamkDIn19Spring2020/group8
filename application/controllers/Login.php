@@ -19,7 +19,7 @@ class Login extends CI_Controller
     {
         $data = array(
             'title' => 'Login',
-            'home' =>   '<a class="nav-item nav-link" style="color:white"  href="' . base_url() . 'index.php/home">HOME</a>',
+            'home' =>   '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/home">HOME</a>',
             'men' =>    '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/men/men_body">MEN</a>',
             'women' =>  '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/women/women_body">WOMEN</a>',
             'kids' =>   '<a class="nav-item nav-link"  href="' . base_url() . 'index.php/kids/kids_body">KIDS</a>',
