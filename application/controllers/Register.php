@@ -56,7 +56,7 @@ class Register extends CI_Controller
                 $subject = "Please verify email for login";
                 $message = "
                     <p>Hi " . $this->input->post('user_name') . "</p>
-                    <p>This is email verification mail from Codeigniter Login Register system. For complete registration process and login into system. First you want to verify you email by click this <a href='" . base_url() . "register/verify_email/" . $verification_key . "'>link</a>.</p>
+                    <p>This is email verification mail from SneakerHead Login Register system. For complete registration process and login into system. First you want to verify you email by click this <a href='" . base_url() . "register/verify_email/" . $verification_key . "'>link</a>.</p>
                     <p>Once you click this link your email will be verified and you can login into system.</p>
                     <p>Thanks,</p>
                     ";
