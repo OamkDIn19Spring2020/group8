@@ -3,7 +3,7 @@
         <aside class="col-3">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-myprofile" role="tab" aria-controls="v-pills-home" aria-selected="true">My Profile</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-favorite" role="tab" v-pills-favorite-tab="v-pills-messages" aria-selected="false">My Favorite</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-favorite" role="tab" aria-controls="v-pills-messages" aria-selected="false">My Favorite</a>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-review" role="tab" aria-controls="v-pills-profile" aria-selected="false">My Reviews</a>
                 <?php echo '<a class="nav-link" href="' . base_url() . 'index.php/myprofile/logout">Logout</a>'; ?>
             </div>
