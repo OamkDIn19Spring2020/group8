@@ -153,7 +153,7 @@
                 echo '<div class="card-body">';
                 echo '<h4 class="card-title">' . $print['name'] . '</h4>';
                 echo '<p class="card-text">' . $print['description'] . '</p>';
-                echo '<a href="' . site_url('/index.php/items/show_items/');
+                echo '<a href="' . site_url('/index,php/items/show_items/');
                 echo $print['product_id'] . '"><button class="btn btn-light">';
                 echo 'More...</button></a>';
                 echo '</div>';

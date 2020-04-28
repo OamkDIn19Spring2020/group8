@@ -51,7 +51,7 @@
 <div class="seeing">
     <div class="container mt-5 pt-5">
         <span>
-            <img src="assets/img/background-1.png" height="400" width="400" alt="">
+            <img src="<?php echo base_url(); ?>assets/img/background-1.png" height="400" width="400" alt="">
         </span>
         <div class="row justify-content-between seeing__content pt-5">
             <div class="col-md-7 col-lg-7 row left">
@@ -64,9 +64,9 @@
                 <div class="col-12 left__men">
                     <div>
                         <figure>
-                            <a <?php echo site_url('men/men_body'); ?>><img src="<?php echo base_url(); ?>assets/img/seeing1.jpg" alt=""></a>
+                            <a <?php echo site_url('index.php/men/men_body'); ?>><img src="<?php echo base_url(); ?>assets/img/seeing1.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo site_url('men/men_body'); ?>>men footwear</a></h4>
+                        <h4><a <?php echo site_url('index.php/men/men_body'); ?>>men footwear</a></h4>
                     </div>
                 </div>
             </div>
@@ -74,16 +74,16 @@
                 <div class="col-12 right__women">
                     <div>
                         <figure>
-                            <a <?php echo site_url('women/women_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing2.jpg" alt=""></a>
+                            <a <?php echo site_url('index.php/women/women_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing2.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php site_url('women/women_body'); ?>>women footwear</a></h4>
+                        <h4><a <?php site_url('index.php/women/women_body'); ?>>women footwear</a></h4>
                     </div>
                     <div style="height: 80px"></div>
                     <div>
                         <figure>
-                            <a <?php echo site_url('kids/kids_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing3.jpg" alt=""></a>
+                            <a <?php echo site_url('index.php/kids/kids_body') ?>><img src="<?php echo base_url(); ?>assets/img/seeing3.jpg" alt=""></a>
                         </figure>
-                        <h4><a <?php echo site_url('kids/kids_body') ?>>kids footwear</a></h4>
+                        <h4><a <?php echo site_url('index.php/kids/kids_body') ?>>kids footwear</a></h4>
                     </div>
                 </div>
             </div>
